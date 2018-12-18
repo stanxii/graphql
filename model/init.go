@@ -3,7 +3,7 @@ package model
 import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jmoiron/sqlx"
-	log "gitlab.ucloudadmin.com/wu/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 var dbx *sqlx.DB
