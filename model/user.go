@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/go-sql-driver/mysql"
-	log "gitlab.ucloudadmin.com/wu/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 type CommonInfo struct {
